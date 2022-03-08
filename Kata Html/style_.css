@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+   margin:0 ;
+    font-family:"Montserrat", sans-serif;
+    color: black;
+
+}
+
+body {
+    zoom: 90%;
+    padding: 90px 20px 0;
+}
+
+.head {
+    background-color:#c7e1f5;
+    height: 80 px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+color: black;
+text-decoration: none;
+font-size: 30px;
+font-family: 'Roboto', sans-serif;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    }
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px 0 0;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    }
+
+    .nav-menu-link {
+        padding: 8px 12px;
+        border-radius: 3px;
+    }
+
+.nav-menu-link:hover{
+background-color: #9bccf1;
+transition: 0.4s;
+
+}
+.principal{
+    background-image: url(./images/cup.png);
+    background-color:#38a9ff;
+    
+}
+
+
+.principal2{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+.bienvenida{
+    font-family: 'Pacifico', cursive;
+    color: #F68C89;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgb(12, 12, 12);
+    
+}
+
+.slogan{
+    font-family: 'Pacifico', cursive;
+    color: #F68C89;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgb(12, 12, 12);
+}
+
+
+.text {
+    font-family: 'Nickainley',cursive;
+    font-size: 4rem;
+    text-align: center;    
+    }
+
+.txt {
+    font-family:"Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center; 
+    color: black;
+
+}
+.sublogo {
+    height: auto;
+    margin: auto;
+    display: block;
+    }
+
+    .Postres{
+        width: 100;
+        background-color:#ffd1f3;
+        border-radius: 0.5rem;
+    }
+
+    .Postres h1 {
+        font-family: 'Pacifico', cursive;
+        color: #020202;
+        font-size: 3rem;
+        text-align: center;
+     }
+    
+
+    .Postres1{
+        width: 100;
+        background-color:#b0f396;
+        border-radius: 0.5rem;
+
+        }
+
+    .Postres1 h1{
+        font-family: 'Pacifico', cursive;
+        color: #020202;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .decoraciones{
+        width: 500px;
+        background-color: #a0e4f8;
+        border-radius: 0.5rem;
+    }
+
+    .decoraciones p{
+        font-family: 'Pacifico', cursive;
+        color: #020202;
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .sabores{
+        width: 170px;
+        background-color: #f7ff8b;
+        border-radius: 0.5rem;
+    }
+
+    .sabores p{
+        font-family: 'Pacifico', cursive;
+        color: #020202;
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .Info{
+        width: 250px;
+        background-color: #ffd1f3;
+        border-radius: 0.5rem;
+    }
+
+    .Info p{
+        font-family: 'Pacifico', cursive;
+        color: #020202;
+        font-size: 3rem;
+        text-align: left;
+    }
+ 
+/* Stiker Pasteles Empieza*/
+    ul{
+    list-style: none;
+        
+      }
+     #menu li>a{
+      background-color: grey;
+      color: white;
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+      min-width: 100px;
+    }
+    #menu li>a:hover{
+      color: black;
+      background-color: #eaeaea;
+    }
+    #menu>li{
+      float: center;
+      text-align:center;
+    }
+    
+    .container{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    
+    }
+    
+    .post{
+        transition: all 0.3s ease;
+        background-color: #e0adf0;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+        cursor: pointer;
+        
+    }
+    section article:hover{
+        box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+        
+    }
+    
+    section article h2, section article p{
+        margin: 1rem;
+        
+    
+    }
+    
+    .container h2 {
+        text-decoration: none;
+
+        
+    } 
+    
+    .fondo h3 {
+
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        }/* Stiker termina*/
+
+   
+
+    
+    footer {/* Pie de pagina*/
+        background-color: #222;
+        padding: 3rem;
+        color: white;
+    }
+    
+    footer section{
+        float: right;
+    }
+    
+    footer p {
+        font-family:"Montserrat", sans-serif;
+        margin: 0;
+        color:#fff;
+    }
+    
+    footer a {
+        transition: color 0.3s ease ;
+        color: white;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        color: cornflowerblue;
+    }/*Final de Pie de pagina*/
+
+
+   input[type=number] {
+       width: 80px;
+       font-size:25px;
+       float: right;
+       border-radius: 10px;
+
+    }
+
+    .form-register {
+        width: 400px;
+        background: #fffbfb;
+        padding: 30px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+      }
+      
+      
+      .controls {
+        width: 350px;
+        background: #ebebeb;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: black;
+      }
+
+      .descripcion{
+        width: 350px;
+        background: #ebebeb;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: black;
+      }
+
+      
+      
+      .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+      }
+      
+      .form-register a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      .form-register a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      
+      .form-register .botons {
+        width: 350px;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+      }
+
+      .post2{
+        transition: all 0.3s ease;
+        background-color: #b0f396;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+        cursor: pointer;}
+
+        .post3{
+            transition: all 0.3s ease;
+            background-color: #f75353;
+            margin: 1rem 0;
+            border-radius: 0.5rem;
+            padding: 0.25rem 0;
+            cursor: pointer;}
+
+    
+      /* Centra el input personalizado con el texto */
+.custom-radio-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Modificador para dar la imagen de checkbox */
+.custom-radio-checkbox__show--checkbox {
+    background-image: url(https://raw.githubusercontent.com/AxelPanicoB/FrontEnd-Mision-Katas/main/Kata%20Html/Imagenes/checkbox-uncheck.png);
+    border-radius: 50px;
+
+}
+
+/* Oculta input original */
+.custom-radio-checkbox > .custom-radio-checkbox__input {
+    display: none;
+    border-radius: 50px;
+}
+
+/* Radio personalizado usando <span> */
+.custom-radio-checkbox > .custom-radio-checkbox__show {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5rem;
+    background-size: cover;
+}  
+
+.custom-radio-checkbox > .custom-radio-checkbox__input:checked + .custom-radio-checkbox__show--checkbox {
+    background-image: url(https://raw.githubusercontent.com/AxelPanicoB/FrontEnd-Mision-Katas/main/Kata%20Html/Imagenes/checkbox-check2.png);
+    border-radius: 50px;
+}
+

@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+   margin:0 ;
+    font-family:"Montserrat", sans-serif;
+    color: black;
+    
+
+}
+
+body {
+    zoom: 90%;
+    padding: 90px 20px 0;
+    background-color: rgb(247, 247, 247);
+}
+
+/*Barra de logo y menu*/
+.head {
+    background-color:#002c4e;
+    height: 80 px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+color: rgb(247, 247, 247);
+text-decoration: none;
+font-size: 30px;
+font-family: 'Roboto', sans-serif;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    }
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px 0 0;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    }
+
+    .nav-menu-link {
+        padding: 8px 12px;
+        border-radius: 3px;
+    }
+
+.nav-menu-link:hover{
+background-color: #004377;
+transition: 0.4s;
+
+}
+
+
+.bienvenida{
+    font-family: 'Pacifico', cursive;
+    color: #89d7f6;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgb(12, 12, 12);
+    
+}/* Fin de laVBarra de logo y menu*/
+
+/*Titulo*/
+
+.Inventario {
+    text-align: center;
+    font-size: 5rem;
+    color:rgb(221, 6, 6);
+    font-family:"Montserrat", sans-serif;
+    text-shadow: 3px 5px 5px rgb(12, 12, 12);
+    
+}
+
+.Inventario2 {
+    width: 500px;
+    font-size: 3rem;
+    background-color: #6bd351;
+    border-radius: 5px;
+    color:white;
+    font-family:"Montserrat", sans-serif;
+    text-shadow: 3px 5px 5px rgb(12, 12, 12);
+    
+}
+
+
+
+/*DISEÑO DE LAS TABLAS*/
+
+/* Tabla 1 */
+.tabla1, .th1, .td1 {
+    background-color: rgb(149, 141, 255);
+    border:4px solid rgb(137, 130, 248);
+    border-radius: 10px;
+    width: 500px;
+    font-size: 30px;
+    color: white;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+  }
+
+  .td1:hover{
+    background-color: #04599b;
+    transition: 0.4s;}
+
+    .th1:hover{
+        background-color: #04599b;
+        transition: 0.4s;}
+
+        /* Tabla 2 */
+
+        .Decoraciones {
+            width: 875px;
+            font-size: 3rem;
+            background-color: #c7c425;
+            border-radius: 5px;
+            color:rgb(255, 255, 255);
+            font-family:"Montserrat", sans-serif;
+            text-shadow: 3px 5px 5px rgb(12, 12, 12);
+        }
+.tabla2, .th2, .td2 {
+    background-color: rgb(196, 3, 3);
+    border:4px solid rgb(168, 2, 2);
+    border-radius: 10px;
+    width: 500px;
+    font-size: 30px;
+    color: white;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+  }
+
+  .td2:hover{
+    background-color: rgb(156, 0, 0);
+    transition: 0.4s;}
+
+    .th2:hover{
+        background-color: rgb(156, 0, 0);
+        transition: 0.4s;}
+
+/* Tabla 3 */
+
+.Pedidos {
+    width: 300px;
+    font-size: 3rem;
+    background-color: #c725b1;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    font-family:"Montserrat", sans-serif;
+    text-shadow: 3px 5px 5px rgb(12, 12, 12);
+}
+.tabla3, .th3, .td3 {
+background-color: rgb(77, 177, 63);
+border:4px solid rgb(75, 168, 62);
+border-radius: 10px;
+width: 500px;
+font-size: 30px;
+color: white;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+.td3:hover{
+background-color: rgb(72, 167, 60);
+transition: 0.4s;}
+
+.th3:hover{
+background-color: rgb(62, 148, 50);
+transition: 0.4s;}
+ 
+/*Botones*/
+
+/*Boton number*/
+   input[type=number] {
+       width: 60px;
+       font-size:20px;
+       float: auto;
+       border-radius: 10px;
+
+    }
+      
+    /* Casillas de texto*/
+      .controls {
+        width: 300px;
+        height: 15px;
+        background: white;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: black;
+            
+      }
+
+    
+      /* Centra el input personalizado con el texto */
+.custom-radio-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        
+    
+}
+
+/* Modificador para dar la imagen de checkbox */
+.custom-radio-checkbox__show--checkbox {
+    background-image: url(https://raw.githubusercontent.com/AxelPanicoB/FrontEnd-Mision-Katas/main/Kata%20Html/Imagenes/checkbox-uncheck.png);
+    border-radius: 50px;
+
+}
+
+/* Oculta input original */
+.custom-radio-checkbox > .custom-radio-checkbox__input {
+    display: none;
+    border-radius: 100px;
+}
+
+/* Radio personalizado usando <span> */
+.custom-radio-checkbox > .custom-radio-checkbox__show {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5rem;
+    background-size: cover;
+    
+}  
+
+.custom-radio-checkbox > .custom-radio-checkbox__input:checked + .custom-radio-checkbox__show--checkbox {
+    background-image: url(https://raw.githubusercontent.com/AxelPanicoB/FrontEnd-Mision-Katas/main/Kata%20Html/Imagenes/checkbox-uncheck.png);;
+}
+
+
+
+  footer {/* Pie de pagina*/
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+}
+
+footer section{
+    float: right;
+}
+
+footer p {
+    font-family:"Montserrat", sans-serif;
+    margin: 0;
+    color:#fff;
+}
+
+footer a {
+    transition: color 0.3s ease ;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}/*Final de Pie de pagina*/
+
+.lista{
+    width: 150px;
+    height: 35px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
