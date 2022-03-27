@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="https://github.com/AxelPanicoB/FrontEnd-Mision-Katas/blob/main/Kata-Js/imagenes/pokeballfondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Css/Normalize.css">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body> 
+<section class="flex">
+
+  
+        
+    <section class="card">
+        <div class="card-colorpoke"></div>
+        <div data-poke-card class="poke-card">
+        <img data-poke-img class="card-body-img" src="https://raw.githubusercontent.com/AxelPanicoB/FrontEnd-Mision-Katas/main/Kata-Js/imagenes/pikachu.png" width="110"/>
+        <img class="fondo" src="https://raw.githubusercontent.com/AxelPanicoB/FrontEnd-Mision-Katas/main/Kata-Js/imagenes/fondopoke.png" alt="fondo" width="250">   
+    
+        <div class="containerInfo" >
+            <div data-poke-name class="name">Nombre del Pokemon</div>
+            <div data-poke-id class="id"></div>
+            <div data-poke-types class="poke-types">
+        </div>
+
+        <form action="" onsubmit="searchPokemon(event)" class="form">
+            <input class="input" type="text" name="pokemon" autocomplete="off" placeholder="Ingrese nombre ó número de pokemon">
+        </form>
+        </div>
+    </section>
+        
+         
+     <div class="division"><div class="division2"></div></div>
+
+     <section class="card2">                  
+           
+        <div data-poke-stats class="poke-stats"><p class="loading">Loadig...</p></div>
+        <h2>Moves</h2>
+        <div data-poke-moves class="poke-moves"><p class="loading2">Loadig...</p></div>
+    
+    </section>  
+        
+        
+
+    </div>
+
+</section>
+    <script src="./pokedex.js"></script>
+</body>
+</html>
